@@ -1,0 +1,132 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+* {
+	border:1px solid;
+}
+
+body {
+    width: 100%;
+	font-family:"Bitter", "Consolas Bold", Helvetica, sans-serif;
+	background-color:#F3F4F4;
+	
+}
+.header {
+    padding-top: 10px;
+	width:100%;
+	margin:0 auto;
+}
+
+.profile_img {
+    width: 100%;
+    display: block;
+    margin: 15px auto;
+}
+
+
+.contact {
+	width:100%;
+    margin: 0 auto;
+	padding-left:20px;
+	position:relative;
+	top:0px;
+	left:auto;
+	right:auto;
+}
+
+
+h1 {
+    font-size: 30px;
+	margin-bottom:20px;
+}
+
+
+
+.contact p{
+    font-size: 20px;
+}
+
+.location {
+    display: inline;
+    margin-left: 40px;
+}
+
+.location:before {
+    content: "";
+    height: 30px;
+    width:30px;
+    display:block;
+    position: absolute;
+	top:45px;
+	left:20px;
+    background-image: url(globe.png);
+    background-size: 100%;
+}
+
+.speech {
+    display: block;
+    margin-left: 40px;
+	margin-top:20px;
+}
+
+.speech:before {
+    content: "";
+    height: 30px;
+    width:30px;
+    display:block;
+    position: absolute;
+	top:90px;
+	left:20px;
+    background-image: url(speech.png);
+    background-size: 100%;
+}
+
+
+.button_wrap {
+	width:100%;
+	margin-top:30px;
+
+}
+
+.button {
+    display: block;
+    height: 60px;
+    width:90%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+	text-align:center;
+	font-family:"Bitter", "Consolas Bold", Helvetica, sans-serif;
+	font-size:20px;
+	text-decoration:none;
+	padding-top: 20px;
+	color:white;
+	border-radius:10px;
+
+}
+
+
+.resume {
+    background-color: #3489C9;
+}
+
+.resume:hover {
+    background-color: #036FCC;
+}
+
+.contact_me {
+    background-color:#ED1C24;
+}
+
+.contact_me:hover {
+    background-color: #CD0018;
+}
+
+.contact_me:active {
+    background-color: #CD0018;
+}
+
+@media only screen and (max-device-width: 480px) {
+		div#wrapper {
+			width: 400px;
+		}
