@@ -175,7 +175,4 @@ li {
 	background:#3489c9;
 }
 
-@media only screen and (max-device-width: 480px) {
-		div#wrapper {
-			width: 400px;
-		}
+
