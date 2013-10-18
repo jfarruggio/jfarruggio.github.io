@@ -35,15 +35,23 @@ body {
 
 
 .contact {
-	width:100%;
+	width:90%;
     margin: 0 auto;
 	padding-left:20px;
 	position:relative;
 	top:0px;
 	left:auto;
 	right:auto;
+	background: white;
 }
 
+/*.container {
+	margin-top:20px;
+	background:#FFFFFF;
+	padding:10px;
+	width:100%;
+}
+*/
 
 h1 {
     font-size: 2em;
@@ -78,10 +86,6 @@ ul {
 	margin-left:40px;
 }
 
-li {
-	margin-top:10px;
-}
-
 .contact h2{
     font-size: 30px;
 	font-weight:normal;
@@ -100,7 +104,7 @@ li {
     position: absolute;
 	top:55px;
 	left:20px;
-    background-image: url(globe.png);
+    background-image: url(assets/globe.png);
     background-size: 100%;
 }
 
@@ -118,7 +122,7 @@ li {
     position: absolute;
 	top:105px;
 	left:20px;
-    background-image: url(speech.png);
+    background-image: url(assets/speech.png);
     background-size: 100%;
 }
 
@@ -175,6 +179,27 @@ li {
 	margin-top:20px;
 	background:#FFFFFF;
 	padding:10px;
+	width:100%;
+}
+
+.software ul {
+	margin-left:0px;
+}
+
+.family {
+	width:100%;
+}
+
+.software li {
+	display:inline-block;
+}
+
+.adobe {
+	width:5em;
+}
+
+.webdev {
+	width:5em;
 }
 
 .bottom {
