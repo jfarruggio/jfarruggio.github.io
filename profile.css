@@ -21,6 +21,7 @@ body {
 
 
 .header {
+	position:relative;
 	width:100%;
 	margin:0 auto;
 }
@@ -31,23 +32,33 @@ body {
     margin-left: auto;
 	margin-right: auto;
 	margin-bottom:15px;
+	z-index:1;
 }
 
 
 .contact {
-	width:90%;
     margin: 0 auto;
 	padding-left:20px;
 	position:relative;
 	top:0px;
 	left:auto;
 	right:auto;
+	background:white;
+	margin-top:20px;
+	background:#FFFFFF;
+	padding:10px;
+	width:100%;
 }
 
 
 h1 {
+	position:absolute;
+	top:20px;
+	left:20%;
+	color:white;
     font-size: 2em;
 	margin-bottom:20px;
+	z-index:2;
 }
 
 h2 {
@@ -56,11 +67,11 @@ h2 {
 
 h3 {
 	font-size:20px;
+	margin-bottom:10px;
 }
 
 p {
 	line-height:140%;
-	margin-top:10px;
 }
 
 
@@ -80,46 +91,66 @@ ul {
 	margin-left:40px;
 }
 
-.contact h2{
-    font-size: 30px;
-	font-weight:normal;
-}
 
 .location {
     display: inline;
-    margin-left: 40px;
 }
 
 .location:before {
     content: "";
-    height: 30px;
-    width:30px;
+    height: 25px;
+    width:25px;
     display:block;
     position: absolute;
-	top:55px;
-	left:20px;
+	top:40px;
+	left:16px;
     background-image: url(assets/globe.png);
     background-size: 100%;
 }
 
 .speech {
     display: block;
-    margin-left: 40px;
 	margin-top:20px;
+	margin-bottom:20px;
 }
 
 .speech:before {
     content: "";
-    height: 30px;
-    width:30px;
+    height:25px;
+    width:25px;
     display:block;
     position: absolute;
-	top:105px;
-	left:20px;
+	top:82px;
+	left:17px;
     background-image: url(assets/speech.png);
     background-size: 100%;
 }
 
+.email:before {
+	content: "";
+    height:25px;
+    width:25px;
+    display:block;
+    position: absolute;
+	top:126px;
+	left:17px;
+    background-image: url(assets/envelope_black.png);
+	background-repeat:no-repeat;
+    background-size: 100%;
+}
+
+.phone:before {
+	content: "";
+    height:27px;
+    width:20px;
+    display:block;
+    position: absolute;
+	top:155px;
+	left:21px;
+    background-image: url(assets/phone.png);
+	background-repeat:no-repeat;
+    background-size: 100%;
+}
 
 .button_wrap {
 	width:100%;
@@ -181,6 +212,15 @@ ul {
 	background:#FFFFFF;
 	padding:10px;
 	width:100%;
+}
+
+.contact_list a {
+	color: #3489C9;
+	text-decoration:none;
+}
+
+.contact_list li{
+		list-style: none;
 }
 
 .software ul {
