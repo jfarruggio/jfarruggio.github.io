@@ -2,8 +2,8 @@
 /* CSS Document */
 
 
+
 * {
-	border:1px solid;
 }
 
 body {
@@ -19,9 +19,9 @@ body {
 }
 
 .profile_img {
-    width: 100%;
+    width: 90%;
     display: block;
-    margin: 15px auto;
+    margin: 0 auto;
 }
 
 
@@ -37,14 +37,34 @@ body {
 
 
 h1 {
-    font-size: 30px;
+    font-size: 50px;
 	margin-bottom:20px;
 }
 
+h2 {
+	font-size: 40px;
+}
 
+h3 {
+	font-size:20px;
+}
 
-.contact p{
-    font-size: 20px;
+p {
+	margin-top:10px;
+}
+
+ul {
+	margin-top:10px;
+	margin-left:40px;
+}
+
+li {
+	margin-top:10px;
+}
+
+.contact h2{
+    font-size: 30px;
+	font-weight:normal;
 }
 
 .location {
@@ -58,7 +78,7 @@ h1 {
     width:30px;
     display:block;
     position: absolute;
-	top:45px;
+	top:70px;
 	left:20px;
     background-image: url(globe.png);
     background-size: 100%;
@@ -76,7 +96,7 @@ h1 {
     width:30px;
     display:block;
     position: absolute;
-	top:90px;
+	top:120px;
 	left:20px;
     background-image: url(speech.png);
     background-size: 100%;
@@ -86,7 +106,7 @@ h1 {
 .button_wrap {
 	width:100%;
 	margin-top:30px;
-
+	margin-bottom:30px;
 }
 
 .button {
@@ -124,6 +144,24 @@ h1 {
 
 .contact_me:active {
     background-color: #CD0018;
+}
+
+.content {
+	width:90%;
+	margin:0 auto;
+}
+
+.container {
+	margin-top:20px;
+	background:#FFFFFF;
+	padding:10px;
+}
+
+.bottom {
+	margin-top:10px;
+	width:100%;
+	height:40px;
+	background:#3489c9;
 }
 
 @media only screen and (max-device-width: 480px) {
