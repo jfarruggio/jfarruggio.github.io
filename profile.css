@@ -4,6 +4,7 @@
 
 
 * {
+	box-sizing:border-box;
 }
 
 body {
@@ -26,13 +27,17 @@ body {
 	margin:0 auto;
 }
 
+h1 {
+	font-size:40px;
+	margin-bottom:10px;
+}
+
 .profile_img {
     width: 100%;
     display: block;
     margin-left: auto;
 	margin-right: auto;
 	margin-bottom:15px;
-	z-index:1;
 }
 
 
@@ -51,31 +56,27 @@ body {
 }
 
 
-h1 {
-	position:absolute;
-	left:5px;
-	bottom:5px;
-	color:white;
-    font-size: 2em;
-	z-index:2;
-}
-
 h2 {
 	font-size: 40px;
 }
 
 h3 {
+	color:white;
 	font-size:20px;
-	margin-bottom:10px;
+}
+
+.contact h3 {
+	color:black;
+	margin-bottom:15px;
 }
 
 p {
 	line-height:140%;
+	padding:10px 0px 0px 10px;
 }
 
 
 ul {
-	margin-top:10px;
 	margin-left:40px;
 }
 
@@ -84,11 +85,6 @@ li {
 	margin-top:10px;
 }
 
-
-ul {
-	margin-top:10px;
-	margin-left:40px;
-}
 
 
 .location {
@@ -101,7 +97,7 @@ ul {
     width:25px;
     display:block;
     position: absolute;
-	top:40px;
+	top:45px;
 	left:16px;
     background-image: url(assets/globe.png);
     background-size: 100%;
@@ -119,7 +115,7 @@ ul {
     width:25px;
     display:block;
     position: absolute;
-	top:82px;
+	top:87px;
 	left:17px;
     background-image: url(assets/speech.png);
     background-size: 100%;
@@ -131,7 +127,7 @@ ul {
     width:25px;
     display:block;
     position: absolute;
-	top:126px;
+	top:131px;
 	left:17px;
     background-image: url(assets/envelope_black.png);
 	background-repeat:no-repeat;
@@ -144,7 +140,7 @@ ul {
     width:20px;
     display:block;
     position: absolute;
-	top:155px;
+	top:160px;
 	left:21px;
     background-image: url(assets/phone.png);
 	background-repeat:no-repeat;
@@ -173,7 +169,7 @@ ul {
 
 
 .resume {
-	padding-top: 40px;
+	padding-top: 20px;
     background-color: #3489C9;
 }
 
@@ -182,7 +178,7 @@ ul {
 }
 
 .contact_me {
-	padding-top: 30px;
+	padding-top: 12px;
 	padding-bottom: 10px;
     background-color:#ED1C24;
 }
@@ -207,9 +203,25 @@ ul {
 }
 
 .container {
-	margin-top:20px;
+	padding-bottom:10px;
+	margin-bottom:20px;
 	background:#FFFFFF;
-	padding:10px;
+	width:100%;
+}
+
+.img_container {
+	margin-top: 20px;
+	background: #FFFFFF;
+	padding: 10px;
+	width: 100%;
+}
+
+
+.container_top{
+	padding:5px 0px 5px 5px;
+	margin-top:20px;
+	background-color:#3389C9;
+	height:25px;
 	width:100%;
 }
 
