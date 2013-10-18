@@ -204,6 +204,7 @@ li {
 
 .container {
 	padding-bottom:10px;
+	padding-right:5px;
 	margin-bottom:20px;
 	background:#FFFFFF;
 	width:100%;
@@ -225,6 +226,10 @@ li {
 	width:100%;
 }
 
+.contact {
+	overflow:scroll;
+}
+
 .contact_list a {
 	color: #3489C9;
 	text-decoration:none;
@@ -232,6 +237,7 @@ li {
 
 .contact_list li{
 		list-style: none;
+		font-size:15px;
 }
 
 .software ul {
