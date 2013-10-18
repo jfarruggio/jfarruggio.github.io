@@ -42,16 +42,8 @@ body {
 	top:0px;
 	left:auto;
 	right:auto;
-	background: white;
 }
 
-/*.container {
-	margin-top:20px;
-	background:#FFFFFF;
-	padding:10px;
-	width:100%;
-}
-*/
 
 h1 {
     font-size: 2em;
@@ -67,6 +59,7 @@ h3 {
 }
 
 p {
+	line-height:140%;
 	margin-top:10px;
 }
 
@@ -77,6 +70,7 @@ ul {
 }
 
 li {
+	line-height:140%;
 	margin-top:10px;
 }
 
