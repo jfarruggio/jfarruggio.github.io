@@ -2,6 +2,7 @@
 /* CSS Document */
 
 
+
 * {
 }
 
@@ -51,6 +52,17 @@ h3 {
 p {
 	margin-top:10px;
 }
+
+
+ul {
+	margin-top:10px;
+	margin-left:40px;
+}
+
+li {
+	margin-top:10px;
+}
+
 
 ul {
 	margin-top:10px;
