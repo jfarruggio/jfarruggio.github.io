@@ -137,14 +137,13 @@ ul {
 	font-family:"Bitter", "Consolas Bold", Helvetica, sans-serif;
 	font-size:20px;
 	text-decoration:none;
-	padding-top: 30px;
 	color:white;
 	border-radius:10px;
-
 }
 
 
 .resume {
+	padding-top: 40px;
     background-color: #3489C9;
 }
 
@@ -153,6 +152,8 @@ ul {
 }
 
 .contact_me {
+	padding-top: 20px;
+	padding-bottom: 10px;
     background-color:#ED1C24;
 }
 
@@ -162,6 +163,12 @@ ul {
 
 .contact_me:active {
     background-color: #CD0018;
+}
+
+.envelope {
+	margin-bottom:10px;
+	width:4em;
+	vertical-align:middle;
 }
 
 .content {
