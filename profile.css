@@ -227,7 +227,7 @@ li {
 }
 
 .contact {
-	overflow:scroll;
+	overflow: auto;
 }
 
 .contact_list a {
@@ -237,7 +237,6 @@ li {
 
 .contact_list li{
 		list-style: none;
-		font-size:15px;
 }
 
 .software ul {
