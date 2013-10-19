@@ -252,6 +252,12 @@ li {
 	width:5em;
 }
 
+span {
+	font-style:italic;
+	text-indent: 2em;
+	display:block;
+}
+
 .bottom {
 	margin-top:10px;
 	width:100%;
