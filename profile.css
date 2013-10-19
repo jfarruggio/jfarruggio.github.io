@@ -1,11 +1,5 @@
 @charset "UTF-8";
 /* CSS Document */
-
-
-* {
-	box-sizing:border-box;
-}
-
 body {
     width: 100%;
 	font-family:"Bitter", "Consolas Bold", Helvetica, sans-serif;
@@ -155,7 +149,6 @@ li {
 .button {
     display: block;
     height: 60px;
-    width:90%;
     margin: 0 auto;
     margin-bottom: 10px;
 	text-align:center;
