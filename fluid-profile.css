@@ -193,7 +193,7 @@ span {
 	font-style:italic;
 }
 
-@media screen and (max-width: 8;40px) {
+@media screen and (max-width: 840px) {
 	.content{ 	
 	margin-left: 20px;	
 	margin-top:70px;
