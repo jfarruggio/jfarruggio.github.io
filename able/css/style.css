@@ -4,14 +4,13 @@ body {
 
 header {
 	background-color:#F4F4F4;
+	text-align:center;
 }
 
 .header-logo {
 	width: 158px;
 	margin-top: 20px;
-	margin-bottom: 18px;
-	margin-right: 10px;
-	float: left;
+
 }
 
 header h2 {
