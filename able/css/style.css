@@ -29,6 +29,10 @@ header h2 {
 	margin:0 auto;	
 }
 
+.icon-wrap img {
+	width:150px;	
+}
+
 .icon h2 {
 	margin:0px;
 	padding:0px;
