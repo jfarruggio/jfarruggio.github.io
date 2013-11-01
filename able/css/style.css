@@ -87,13 +87,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#333333', end
 /** LOCATION CSS **/
 
 .location-header {
-	background-image: url(images/location-header.png);
-	background-size:100%;
 	height:200px;
 	color:white;
 	position:relative;
 	top:0px;
 	left:0px;
+}
+
+.location-header img {
+	width:100%;	
 }
 
 .blur {
