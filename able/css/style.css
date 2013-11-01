@@ -30,7 +30,7 @@ header h2 {
 }
 
 .icon-wrap img {
-	width:150px;	
+	width:120px;	
 }
 
 .icon h2 {
@@ -85,6 +85,24 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#333333', end
 
 
 /** LOCATION CSS **/
+
+.location-header {
+	background-image: url(images/location-header.png);
+	background-size:100%;
+	height:200px;
+	color:white;
+	position:relative;
+	top:0px;
+	left:0px;
+}
+
+.blur {
+	background: rgba(4,4,4, .5);
+	position: absolute;
+	left: 0;
+    text-align: center;
+    bottom: 0;
+}
 
 .location-arrow {
 	position:absolute;
