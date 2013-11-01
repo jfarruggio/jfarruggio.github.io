@@ -3,7 +3,7 @@ body {
 }
 
 header {
-	background-color:#F4F4F4;
+	background-color: #464646;
 	text-align:center;
 }
 
@@ -34,6 +34,7 @@ header h2 {
 .icon h2 {
 	margin:0px;
 	padding:0px;
+	font-size:20px;
 }
 
 
