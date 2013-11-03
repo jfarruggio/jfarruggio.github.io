@@ -67,10 +67,10 @@ input {
 	padding: 5px;
 	float: right;
 	border: 1px dotted;
-	background: none;
+	display: none;
 	
 }
  
 .event-name input:focus + .balloon-name{
-	background:block;
+	display:block;
 }
