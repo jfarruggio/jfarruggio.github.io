@@ -11,86 +11,83 @@
         <div class="heading">
         	<h1>Create a new event</h1>
         </div>
-        <div class="row row-1">
-			<fieldset>
-				<form for="name">
-                	<label class="quater" for="name">Event is called</label>   
-                    <input  class="three-quater label-text" id="name" name="name" placeholder="e.g. My Great Event" /> 
-                </form>
-            </fieldset>          
-        </div>  
-        <div class="balloon balloon-name">
-            	<p>Give your event a catchy title, so people will want to come.</p>
-            </div>
-      <!-- End Row -->  
         <div class="row">
-        	<fieldset>
-				<form >
-                	<label class="quater" for="address">It'll be held at</label>   
-                    <input class="three-quater label-text" id="address" name="address" placeholder="Address" /> 
-                </form>
-            </fieldset>
+        <form id="form2" name="form2" class="wufoo topLabel page" autocomplete="off" enctype="multipart/form-data" method="post" novalidate
+      action="https://abledistributors.wufoo.com/forms/m11qeoi0ftd3oy/#public">
+      <input type="hidden" name="idstamp" id="idstamp" value="TZcRK3rDuejc0U6zcrwHmji9IPpOuWwZJolw/YVMHTg=" />
+		
+                	<label class="quater" for="Field1">Event is called</label>   
+                    <input type="text"  class="three-quater label-text input input-name" id="Field1" name="Field1" placeholder="e.g. My Great Event" /> 
+            <div class="balloon bln-name">
+            	<p>Give your event a catchy title, so people will want to come.</p>
+			</div>
+            	         
+            </div>
+            <!-- End Row -->      
+        <div class="row">
+                	<label class="quater" for="Field2">It'll be held at</label>   
+                    <input class="three-quater label-text input input-address " id="Field2" name="address" placeholder="Address" />
+                    <div class="balloon bln-address ">
+            	<p>Make sure your guests know where to show up.</p>
+			</div> 
 	</div>
     <div class="row">
-        	<fieldset>
-				<form >
-                    <input class="quater label-text spacer" name="City" placeholder="City" /> 
-                    <input class="quater label-text" name="Zip" placeholder="Zip" />  
-                </form>
-            </fieldset>
+
+                    <input class="quater label-text spacer input input-city " id="Field3" name="Field3" placeholder="City" /> 
+                    <div class=" balloon bln-city ">
+            	<p>Specify a city please.</p>
+			</div> 
+                    <input class="quater label-text input input-zip" id="Field4" name="Field4" placeholder="Zip" />  
+                    <div class="balloon bln-zip ">
+            	<p>Don't forget the Zip.</p>
+			</div> 
+              
+	</div>
+    <div class="row"> 
+                    <label class="quater label-text" for="Field5">It'll be held on</label>
+                    <input class="quater label-text" id="Field5" name="Field5" placeholder="Month" /> 
+                    <input class="quater label-text" id="Field6"  name="Field6" placeholder="Date" /> 
+                    <input class="quater label-text" id="Field7" name="Field7" placeholder="Year" />  
+              
 	</div>
     <div class="row">
-        	<fieldset>
-				<form >
-                    <label class="quater label-text" for="month">It'll be held on</label>
-                    <input class="quater label-text" id="month" name="month" placeholder="Month" /> 
-                    <input class="quater label-text"  name="date" placeholder="Date" /> 
-                    <input class="quater label-text" name="year" placeholder="Year" />  
-                </form>
-            </fieldset>
-	</div>
-    <div class="row">
-        	<fieldset>
-				<form >
+        
                    <label for="private"class="quater">Privacy</label>
-                   <input type="radio" class="" id="private" name="privacy"/>
-                   <label for="private">Private</label>
-                   <input type="radio" class="" id="public" name="privacy"/>
-                   <label for="private">Public</label>
+                   <input type="radio" class="" id="Field8_0" name="Field8_0"/>
+                   <label for="Field8_0">Private</label>
+                   <input type="radio" class="" id="Field8_1" name="Field8_1"/>
+                   <label for="Field8_1">Public</label>
                    
+	</div>
+    
+    
+    <input type="checkbox" class="check check-invite" id="Field9" name="Field9"/>
+    
+    
+    <div class="row">
                    
-                </form>
-            </fieldset>
+                   <label class="check-spacer" for="Field9"> Can guests invite friends?</label>                   
 	</div>
+    
+    <input class="check check-drinks" type="checkbox" class="" id="Field10" name="Field10"/>
     <div class="row">
-        	<fieldset>
-				<form >
-                   <input type="checkbox" class="" id="invite" name="invite"/>
-                   <label for="invite">Can guests invite friends?</label>                   
-                </form>
-            </fieldset>
+        	
+                   <label class="check-spacer" for="Field10">Will there be free drinks?</label>                   
+             
 	</div>
+     <input class="check check-dancing" type="checkbox" class="" id="Field11" name="Field11"/>
     <div class="row">
-        	<fieldset>
-				<form >
-                   <input type="checkbox" class="" id="drinks" name="drinks"/>
-                   <label for="drinks">Will there be free drinks?</label>                   
-                </form>
-            </fieldset>
-	</div>
-    <div class="row">
-        	<fieldset>
-				<form >
-                   <input type="checkbox" class="" id="dancing" name="dancing"/>
-                   <label for="dancing">Will there be dancing?</label>                   
-                </form>
-            </fieldset>
+        
+                  
+                   <label class="check-spacer" for="Field11">Will there be dancing?</label>                   
+              
 	</div>
     </div>
     <div class="container">
-    	<div class="row">
-        	<button>Make it so, computer.</button>
-        </div>	
+    	<div class="row-bottom">
+        	<button id="saveFrom" name="saveForm" type="submit" value="Submit">Make it so, computer.</button>
+            </form>
+         </div>	
     </div>
     </div>
 </body>
