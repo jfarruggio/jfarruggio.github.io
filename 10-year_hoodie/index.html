@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav class="navbar navbar-inverse" role="navigation">
+    <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
   <!-- Brand and toggle get grouped for better mobile display -->
   <div class="navbar-header">
     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -49,51 +49,59 @@
                     </ul>
             </div>
             <div class="row">
-                <div class="col-md-4 col-md-offset-4">
-<br>                    <button class="btn btn-default btn-lg">I want one</button>
+                <div class="col-md-4 col-md-offset-4 button">
+<br>                    <button class="btn btn-danger btn-lg">I want one</button>
                 </div>
             </div>
            </div>
         </div>
     </div>
 </header>
-<br>
+
 
 <!--section 2-->
-<div class="container section">
+<div class="bg2">
+<div class="container">
+<section>
     <h2>Gauranteed to last a decade...</h2>
         <div class="row">
    <!--column left-->
-         <div class="col-md-12">
-
-            <div class="row">
-            <div class="col-md-6">
-                <h3>100% Cotton &amp; Made to last a lifetime</h3>
+	<div class="col-md-6">
+		<div class="row">
+        	<div class="col-md-12">
+             	<h3>100% Cotton &amp; Made to last a lifetime</h3>
                 <div class="row">
-                    <div class="col-md-12">
+                 	<div class="col-md-6">
                         <img class="img-responsive" src="assets/section2-image1.jpg" alt="">
                     </div>
-                </div>
-                 <div class="row">
-                    <div class="col-md-12">
-                        <img class="img-responsive "src="assets/section2-image2.jpg" alt="">
+                    <div class="col-md-6">
+                         <img class="img-responsive" src="assets/section2-image2.jpg" alt="">
                     </div>
-                </div>
-            </div>
-
-    <!--column right-->
-            <div class="col-md-6">
-                <h3>FREE mending</h3>
+               	</div><br>
                 <div class="row">
-                    <div class="col-md-12">
-                        <img class="img-responsive" src="assets/section2-image3.jpg" alt="">
+                    <div class="col-md-6">
+                        <img class="img-responsive "src="assets/section2-image3.jpg" alt="">
                     </div>
+                    <div class="col-md-6">
+                        <img class="img-responsive "src="assets/section2-image4.jpg" alt="">
+                     </div>   
+        		</div>
+        	</div>            
+    	</div>
+	</div>
+    <!--column right-->
+    <div class="col-md-6">
+     	<h3>FREE mending</h3>
+        <div class="row">
+        	<div class="col-md-6">
+				<img class="img-responsive" src="assets/section2-image3.jpg" alt="">
+             </div>
+             <div class="col-md-6">
+             	<img class="img-responsive" src="assets/section2-image3.jpg" alt="">
+             </div>
                     <div class="col-md-12">
                         <h3>It's not that it's cheap</h3>
                    </div>
-                </div>
-                <div class="col-md-12">
-
                 </div>
            </div>
 
@@ -101,10 +109,12 @@
         </div>
         <div class="col-md-6">
         </div>
-
+</section>
 <!--section 3-->
+<section>
     <div class="row">
         <!--column left-->
+        <h2>The 10-Year Hoodie Is...</h2>
         <div class="col-md-6">
             <h4>Built for Life</h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, pariatur, velit, odio aperiam assumenda quo aliquam ipsa fugit in ab recusandae maxime corporis laudantium totam maiores non expedita voluptates quam.
@@ -131,28 +141,73 @@
 
         </div>
     </div>
+</section>    
+<section>    
 <!--section 4-->
     <div class="row">
-        <h2>Sign-up for a decade of patches</h2>
+        <h2>Sign-up for a decade of patches</h2><br>
 <!--column left-->
         <div class="col-md-6">
             <div class="row">
-                <div class="col-md-12"></div>
-            </div>
+                <div class="col-md-12 badges">
+                	<img src="assets/badges/badge-1.png" alt="">
+                    <img src="assets/badges/badge-2.png" alt="">
+                    <img src="assets/badges/badge-3.png" alt="">
+                    <img src="assets/badges/badge-4.png" alt="">
+                    <img src="assets/badges/badge-5.png" alt="">
+                
+                </div>
+            </div><br>
             <div class="row">
-                <div class="col-md-12"></div>
+            	<div class="col-md-12 badges">
+                	<img src="assets/badges/badge-1.png" alt="">
+                    <img src="assets/badges/badge-2.png" alt="">
+                    <img src="assets/badges/badge-3.png" alt="">
+                    <img src="assets/badges/badge-4.png" alt="">
+                    <img src="assets/badges/badge-5.png" alt="">
+                </div>
             </div>
         </div>
 <!--column right-->
         <div class="col-md-6">
-
+			<ul>
+            	<li> A new, 10-year hoodie iron-on patch for every year</li>
+                <li>Shipping and handling on the patch regardless of postage fluctuations or where you live</li>
+                <li>A confirmation email yearly to confirm your shipping adddress with a single click before dropping your new patch, commemorating another year, in the mail!</li>
+            </ul>    
         </div>
     </div>
+   
 <!--section 5-->
     <div class="row">
-        <div class="col-md-6">
-
+        <!--column left-->
+        <div class="col-md-6 form-group">
+        	<form>
+            	<legend>Size</legend>
+            	<select>
+                	<option value="sm">Small</option>
+                    <option value="md">Medium</option>
+                    <option value="lg">Large</option>
+                </select>
+                <legend>Color</legend>
+            	<select>
+                	<option value="red">Red</option>
+                    <option value="blue">Blue</option>
+                    <option value="green">Green</option>     
+                 </select>            
+                <legend>Quantity</legend>
+                <label>1
+                <input type="radio" name="qty" value="1">
+                </label>
+                <label>2
+                <input type="radio" name="qty" value="2">
+                </label>
+                <label>3
+                <input type="radio" name="qty" value="2">
+            	</label>
+            </form>
         </div>
+		<!--column right-->
          <div class="col-md-6">
             <div class="row">
                 <div class="col-md-12"></div>
@@ -162,6 +217,8 @@
             </div>
         </div>
     </div>
+</section>     
+</div>
 </div>
 <footer>
 
