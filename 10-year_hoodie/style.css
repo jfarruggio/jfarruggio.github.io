@@ -43,14 +43,16 @@ header, section {
 
 
 h1, h2 {
-    text-align: center;
+	text-align: center;
     color: black;
 }
 
 h1 {
+	font-family: 'Bangers';
     font-size:4em;
     margin-top: 198px;
     margin-bottom: 0px;
+
 }
 
 h2 {
@@ -74,4 +76,15 @@ header ul, li {
 
 .bottom {
 	margin-top:90px;	
+}
+
+.radio-box {
+	display:none;	
+}
+
+.img-profile {
+	display: inline-block;
+	max-width: 115px;
+	margin-left: 8px;
+}
 }
