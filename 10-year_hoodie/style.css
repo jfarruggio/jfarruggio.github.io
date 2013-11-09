@@ -33,7 +33,7 @@ header {
 /** The shaded box in the header **/
 .header-content {
 	position: relative;
-	bottom: 0px;
+	top: 200px;
 	left: 0px;
 	width:100%;
     padding: 10px 0px;
