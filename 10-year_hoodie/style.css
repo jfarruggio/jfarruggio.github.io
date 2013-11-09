@@ -1,21 +1,5 @@
-
-
 header, body, html {
     height:100%;
-}
-
-header {
-	
-	background-image:url(assets/bg-2.png);
-	background-attachment:fixed;
-}
-
-header img {
-	height: 100%;
-	position: relative;
-	top: 0px;
-	left: -239px;
-	
 }
 
 header, section {
@@ -24,58 +8,129 @@ header, section {
 }
 
 
+/** Custom Nav styles **/
 
-.bg2 {
-	background-image:url(assets/bg.png);
-	background-attachment:fixed;
-	
+.navbar-nav {
+	margin-left: 110px;
+}
+
+.flag {
+	width: 100px;
+	position: absolute;
+	top: 0px;
+	left: 25px;
+	z-index: 10000;
 }
 
 
+
+/** Full-page header background **/
+header {
+	position: relative;
+	background: url(assets/header-image.png) no-repeat center center fixed; 
+ }
+
+/** The shaded box in the header **/
 .header-content {
-    margin-top: 50px;
+	position: relative;
+	bottom: 0px;
+	left: 0px;
+	width:100%;
     padding: 10px 0px;
     color: white;
     background-color: rgba(0,0,0, .5);
-    border-radius: 15px;
-}
-
-
-
-h1, h2 {
-	text-align: center;
-    color: black;
+    text-align: center;
+    color: white;
 }
 
 h1 {
-	font-family: 'Bangers';
-    font-size:4em;
-    margin-top: 198px;
+	font-family: 'Bowlby One SC', sans;
+    font-size:3.5em;
     margin-bottom: 0px;
-
 }
 
 h2 {
-    margin-top: 0px;
 
 }
 
 header h2 {
-    font-size: 2em
+	margin-top: 0px;
+    font-size: 2em;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-style:italic;
 }
 
-header ul, li {
+/** "100%" text horizontally aligned **/
+header li {
+	display: inline-block;
+	padding: 10px;
+}
+
+header li {
     list-style: none;
-    font-size: 1.5em;
+    font-size: 2.5em;
+	font-family: Georgia, "Times New Roman", Times, serif;
 }
 
+/** Makes the words in  the span tag italic **/
+header li span {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-style:italic;
+}
+
+section h2 {
+	font-family: 'Bowlby One SC', sans;
+	font-size: 30px;	
+	text-align: center;
+}
+
+.tagline {
+	margin-top: 0px;
+    font-size: 2em;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-style:italic;
+}
+
+/** Section 2 Styles **/
+.section2 {
+	height: 100%;
+	background-color: lightgrey;
+}
+
+
+
+
+
+/** Section 3 Styles **/
+
+.section3 {
+	background-color: rgba(200,0,0,.5);
+}
+
+
+
+
+/** Section 4 Styles **/
+.section4 {
+	background-color: rgba(0, 1, 0, .5);
+}
 .badges img {
 	width:19%;
 	display:inline-block;	
 }
 
+
+/** Form and About us Styles "Bottom" **/
 .bottom {
 	margin-top:90px;	
+}
+
+.form {
+	text-align: left;
+}
+
+legend{
+	border: none;
 }
 
 .radio-box {
@@ -87,4 +142,15 @@ header ul, li {
 	max-width: 115px;
 	margin-left: 8px;
 }
+
+
+
+
+
+
+/** Section 5 Styles **/
+
+
+footer {
+	background-color: black;
 }
