@@ -1,4 +1,4 @@
-header, body, html {
+body, html {
     height:100%;
 }
 
@@ -16,23 +16,22 @@ header, section {
 
 .flag {
 	width: 100px;
-	position: absolute;
+	position: fixed;
 	top: 0px;
 	left: 25px;
 	z-index: 10000;
 }
 
-
-
 /** Full-page header background **/
 header {
 	position: relative;
 	background: url(assets/header-image.png) no-repeat center center fixed; 
+ 	z-index: 1;
  }
 
 /** The shaded box in the header **/
 .header-content {
-	position: relative;
+	position: fixed;
 	top: 325px;
 	left: 0px;
 	width:100%;
@@ -49,28 +48,16 @@ h1 {
     margin-bottom: 0px;
 }
 
+section {
+	position: relative;
+	z-index: 1000;
+}
+
 /*kerry added style for the copy in section 2*/
-/*I want this box to be the same width as the 2 images above, can you help? Or maybe it's the pictures that need adjusting? Free mending is lined up correctly too...It's not a big deal, just bugs me!*/
-.col-md-12.boxed-type {
-	background-color: #303030;
-/*	margin: 0 15 0 15;*/
-}
-
-.inverse-type1 {
-	text-align: center;
-	font-size: 2.5em;
-	color: grey;
-	padding-top: 20px;
-	padding-bottom: 10px;
-
-}
-.inverse-type2 {
-	text-align: center;
-	font-size: 2.5em;
-	color: white;
-	padding-bottom: 30px;
-
-}
+/*I want this box to be the same width as the 2 images above, 
+can you help? Or maybe it's the pictures that need adjusting? 
+Free mending is lined up correctly too...It's not a big deal, 
+just bugs me!*/
 
 header h2 {
 	margin-top: 0px;
@@ -78,8 +65,6 @@ header h2 {
 	font-family: Georgia, "Times New Roman", Times, serif;
 	font-style:italic;
 }
-
-
 
 /** "100%" text horizontally aligned **/
 header li {
@@ -103,31 +88,71 @@ section h2 {
 	font-family: 'Bowlby One SC', sans;
 	font-size: 30px;	
 	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
+
+.section3 h2 {
+	margin-bottom: 70px;
+}
+
+.section4 h3{
+	margin-top: 0px;
+}
+section h3 {
+	text-align: center;
+}
+
+
+.form {
+	margin-bottom: 10px;
 }
 
 .tagline {
 	margin-top: 0px;
+	margin-bottom: 20px;
     font-size: 2em;
 	font-family: Georgia, "Times New Roman", Times, serif;
-	font-style:italic;
+	font-style: italic;
 }
 
-/** Section 2 Styles I wanted to try transparency in this section, pasted style from section 1 but it didn't apply transparency.**/
+
+
+/** Section 2 Styles I wanted to try transparency in this 
+section, pasted style from section 1 but it didn't apply 
+transparency.**/
+
 .section2 {
 	height: 100%;
-	background-color: lightgrey;
-/*	background-color: rgba(0,0,0, .5);*/
+ 	background: rgba(200,200,200, 1);
 }
 
+.boxed-type {
+	background: rgba(0,0,0, 1);
+	background-clip: content-box;
+}
 
+.inverse-type1 {
+	text-align: center;
+	font-size: 2em;
+	color: grey;
+	padding-top: 20px;
+	padding-bottom: 0px;
 
+}
+.inverse-type2 {
+	text-align: center;
+	font-size: 2em;
+	color: white;
+	padding-bottom: 20px;
+}
 
 
 /** Section 3 Styles **/
 
 .section3 {
 	background-color: #cccc66;
-	height: 520px;
+	height: 100%;
 }
 h4 {
 	font-weight: bold;
@@ -138,7 +163,7 @@ h4 {
 
 /** Section 4 Styles **/
 .section4 {
-	background-color: rgba(0, 1, 0, .5);
+	background-color: rgba(200, 200, 200, 1);
 }
 .badges img {
 	width:19%;
@@ -149,6 +174,10 @@ h4 {
 /** Form and About us Styles "Bottom" **/
 .bottom {
 	margin-top:90px;	
+}
+
+.form-header {
+	margin-top: 0px;
 }
 
 .form {
@@ -169,6 +198,9 @@ legend{
 	margin-left: 8px;
 }
 
+.story h3{
+	text-align: left;
+}
 
 
 

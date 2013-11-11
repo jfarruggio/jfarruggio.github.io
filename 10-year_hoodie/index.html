@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
   <!-- Brand and toggle get grouped for better mobile display -->
   <div class="navbar-header">
     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -23,15 +23,15 @@
   <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
     <ul class="nav navbar-nav">
       <li class="active"><a href="#">Home</a></li>
-      <li><a href="#">About</a></li>
-      <li><a href="#">Order</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#order">Order</a></li>
 
     </ul>
 
   </div><!-- /.navbar-collapse -->
 
 </nav>
-<a href="#"><img src="assets/flag.png" alt="" class="flag" ></a>
+<a href="http://www.flintandtinderusa.com/"><img src="assets/flag.png" alt="" class="flag" ></a>
 
 
 
@@ -92,10 +92,8 @@
                 <!-- End Row -->
                 <div class="row">
                     <div class="col-md-12 boxed-type">
-                        <div class="inverse-type1">Its not so cheap<br>that we can replace it;</div>
-                    </div>
-                    <div class="col-md-12 boxed-type">
-                        <div class="inverse-type2">It's so well made that<br>we'll mend it free of charge!</div>
+                        <p class="inverse-type1">Its not so cheap<br>that we can replace it;</p>
+                        <p class="inverse-type2">It's so well made that<br>we'll mend it free of charge!</p>
                     </div>
                 </div>
             </div>
@@ -107,7 +105,7 @@
 
 
 <!--section 3-->
-<section class="section3">
+<section id="about" class="section3">
     <div class="container">
         <div class="row">
             <!--column left-->
@@ -129,16 +127,20 @@
             <!--column right-->
               <div class="col-md-6">
                 <div class="row">
-                    <div class="col-md-12"></div>
-                        <img class="img-responsive" src="assets/video_screenshot.png" alt="">
+                    <div class="col-md-12">
+                       <div class=".flex-video">
+                        <iframe width="560" height="315" src="//www.youtube.com/embed/FFrko0PE3VI" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                        
 
-         <!-- These 4 paragraphs now fit in 1 column so I moved this one up with the other grouping.
+         <!-- These 4 paragraphs now fit in 1 column so I moved this one up with the other grouping.-->
 
          <div class="col-md-12">
                         <h4>A Record Setting Kickstarter Project</h4>
                 <p>Flint and Tinder turned to Kickstarter to pre-sell enought to get the production lines moving. 1 month and $1,000,000 worth of sweatshirts later the verdict was in! A total blowout success story as seen in Fortune, INC, Good Magazine and WWD!
                 </p>
-                    </div> -->
+                    </div> 
 
                 </div>
             </div>
@@ -147,7 +149,7 @@
 </section> 
 
 <!--section 4-->
-<section class="section4">    
+<section id="order" class="section4">    
     <div class="container">
         <div class="row">
             <h2>Sign-up for a decade of patches</h2><br>
@@ -186,7 +188,7 @@
             <!--column left-->
             <div class="col-md-6">
                 <div class="row">
-                    <h2 class="form">The 10-Year hoodie</h2>
+                    <h2 class="form form-header">The 10-Year hoodie</h2>
                     <h2 class="form tagline">Built for life, backed by a decade</h2>
                     <div class="col-md-4">
                         <form>  
@@ -224,11 +226,11 @@
                     </form>
                 </div>
             <!--column right-->
-                 <div class="col-md-6">
+                 <div class="col-md-6 story">
                     <div class="row">
                         <h3>Our Story...</h3>
                         <div class="col-md-12"></div>
-                            <p>Flint & Tinder is an American clothing company. Our goal is to reignite American manufacturing by offering high-quality products at competitive prices. We don’t settle for imported, cheap goods, and neither should you.</p>
+                            <p>Flint &amp; Tinder is an American clothing company. Our goal is to reignite American manufacturing by offering high-quality products at competitive prices. We do not settle for imported, cheap goods, and neither should you.</p>
                     </div>
                     <div class="row">
                         <h3>The Team...</h3>
