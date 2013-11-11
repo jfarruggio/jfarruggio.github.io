@@ -2,7 +2,7 @@ body, html {
     height:100%;
 }
 
-header, section {
+header {
     height:100%;
 	padding:5px 0px;
 }
@@ -23,9 +23,17 @@ header, section {
 
 /** Full-page header background **/
 header {
-	position: relative;
-	background: url(assets/header-image.png) no-repeat center center fixed; 
+ 	background: url(assets/header-image.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
  	z-index: 1;
+ }
+
+ .hoodie {
+ 	position: fixed;
+ 	margin: 0 auto;
  }
 
 /** The shaded box in the header **/
@@ -50,6 +58,9 @@ h1 {
 section {
 	position: relative;
 	z-index: 1000;
+	background-color: lightgray;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 
 /*kerry added style for the copy in section 2*/
@@ -122,8 +133,6 @@ section, pasted style from section 1 but it didn't apply
 transparency.**/
 
 .section2 {
-	height: 100%;
- 	background: rgba(240,240,240, 1);
 }
 
 .boxed-type {
@@ -150,8 +159,7 @@ transparency.**/
 /** Section 3 Styles **/
 
 .section3 {
-	background-color: #cccc66;
-	height: 100%;
+
 }
 h4 {
 	font-weight: bold;
@@ -183,12 +191,12 @@ h4 {
 
 /** Section 4 Styles **/
 .section4 {
-	background-color: rgba(200, 200, 200, 1);
 }
 
 .section4 h3{
 	margin-top: 0px;
 	text-align: left;
+	font-weight: bold;
 }
 
 .section4 ul, li {
@@ -266,7 +274,6 @@ legend{
 /** Section 5 Styles **/
 
 .section5 {
-	background-color: white;
 }
 
 /** Footer Styles **/
@@ -274,13 +281,15 @@ legend{
 footer {
 	background-color: black;
 	padding: 20px 0px;
+	position: relative;
+	z-index: 1000;
 }
 
 .footer-left {
 	text-align: right;
 }
 
-footer ul, li {
+footer li {
 	padding: 0px;
 	margin: 0px;
 	color:gray;
