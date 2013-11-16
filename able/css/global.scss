@@ -1,18 +1,18 @@
 @charset "UTF-8";
 /* CSS Document */
 
-
-
-body {
-	background: #E6E7E8;
-	padding-top:51px;
-	height: 100%;	
+html, body {
+	background: #E6E7E8;	
+	height:100%;
 }
 
-.wrap {
-	height: 100%;
-	margin: 0 auto -60px;
-	padding: 0 0 60px;
+#wrap {
+  min-height: 100%;
+  height: auto;
+  /* Negative indent footer by its height */
+  margin: 0 auto -60px;
+  /* Pad bottom by footer height */
+  padding: 0 0 60px;
 }
 
 header {
@@ -63,11 +63,18 @@ footer {
 	color:white;
 	background: rgba(49,49,49,1);
 	height:160px;
+
+	li {
+	list-style:none;
+	display:inline-block;
+	margin-right:20px;	
+	}
 }
 
 .footer-upper {
 	text-align:center;	
-	background:rgba(47,47,47,1);
+	background:rgba(40,40,40,1);
+	border-bottom:1px solid rgb(70,70,70);
 	padding:10px 0px;
 
 	h2 {
@@ -79,13 +86,7 @@ footer {
 
 
 .footer-lower {
-	padding:10px 0px;	
-}
-
-footer li {
-	list-style:none;
-	display:inline-block;
-	margin-right:20px;	
+	border-top: 10px solid rba(10,10,10);
 }
 
 .footer-logo {

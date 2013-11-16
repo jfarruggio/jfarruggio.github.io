@@ -1,13 +1,15 @@
 /* CSS Document */
-body {
+html, body {
   background: #E6E7E8;
-  padding-top: 51px;
   height: 100%;
 }
 
-.wrap {
-  height: 100%;
+#wrap {
+  min-height: 100%;
+  height: auto;
+  /* Negative indent footer by its height */
   margin: 0 auto -60px;
+  /* Pad bottom by footer height */
   padding: 0 0 60px;
 }
 
@@ -58,10 +60,16 @@ footer {
   background: #313131;
   height: 160px;
 }
+footer li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 20px;
+}
 
 .footer-upper {
   text-align: center;
-  background: #2f2f2f;
+  background: #282828;
+  border-bottom: 1px solid #464646;
   padding: 10px 0px;
 }
 .footer-upper h2 {
@@ -71,13 +79,7 @@ footer {
 }
 
 .footer-lower {
-  padding: 10px 0px;
-}
-
-footer li {
-  list-style: none;
-  display: inline-block;
-  margin-right: 20px;
+  border-top: 10px solid rba(10, 10, 10);
 }
 
 .footer-logo {
