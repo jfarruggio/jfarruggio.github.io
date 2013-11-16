@@ -32,6 +32,16 @@ h1	{
 .content {
 	border-top: 1px solid rgb(240,240,240);
 	padding-top: 15px;
+	padding-left:30px;
+	padding-right:30px;
+}
+
+a.icon {
+	color: rgb(70,70,70);
+
+	&:hover{
+		text-decoration: none;
+	}
 }
 
 .content-title {

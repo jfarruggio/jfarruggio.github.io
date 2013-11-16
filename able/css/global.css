@@ -30,6 +30,15 @@ h1 {
 .content {
   border-top: 1px solid #f0f0f0;
   padding-top: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+a.icon {
+  color: #464646;
+}
+a.icon:hover {
+  text-decoration: none;
 }
 
 .content-title {
