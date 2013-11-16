@@ -11,8 +11,23 @@ body {
   padding: 0 0 60px;
 }
 
-.hero {
-  width: 100%;
+header {
+  background: #c3c3c3;
+  border-bottom: 1px solid #8c8c8c;
+}
+
+.header-logo {
+  width: 15em;
+  margin-top: 10px;
+}
+
+h1 {
+  font-size: 1.3em;
+}
+
+.content {
+  border-top: 1px solid #f0f0f0;
+  padding-top: 15px;
 }
 
 .content-title {
