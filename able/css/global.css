@@ -2,6 +2,7 @@
 html, body {
   background: #E6E7E8;
   height: 100%;
+  background: url(bg.png) repeat;
 }
 
 #wrap {
@@ -14,8 +15,7 @@ html, body {
 }
 
 header {
-  background: #c3c3c3;
-  border-bottom: 1px solid #8c8c8c;
+  background: #f0f0f0;
 }
 
 .header-logo {
@@ -28,7 +28,6 @@ h1 {
 }
 
 .content {
-  border-top: 1px solid #f0f0f0;
   padding-top: 15px;
   padding-left: 30px;
   padding-right: 30px;
