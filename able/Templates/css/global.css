@@ -5,7 +5,6 @@ html, body {
   width: auto !important;
   overflow-x: hidden !important;
   background: url(bg.png) repeat;
-  font-family: "bitter", sans-serif;
 }
 
 #wrap {
@@ -99,31 +98,4 @@ footer li {
 }
 .footer-logo:hover {
   opacity: 1;
-}
-
-@media screen and (max-height: 768px) {
-  html, body {
-    background-image: none;
-    background-color: #f0f0f0;
-  }
-
-  header {
-    background-color: white;
-  }
-
-  .header-logo {
-    float: left;
-    margin-bottom: 15px;
-    margin-left: 19px;
-  }
-
-  .header-text {
-    float: left;
-    margin-left: 10px;
-    margin-top: 68px;
-  }
-
-  .mobile {
-    display: none;
-  }
 }
