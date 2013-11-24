@@ -188,7 +188,7 @@ input[type=checkbox] {
    left: -9999px;
 }
 
-.read-more, .read-less {
+.read-more, .read-less, .read-more2, .read-less2 {
     display: none;
 }
 
@@ -262,13 +262,13 @@ footer{
         display: none;
     }
 
-    .read-more {
+    .read-more, .read-more2 {
         display: block;
         cursor: pointer;
         color: rgb(200,200,200)
     }
 
-    .read-less {
+    .read-less, .read-less2 {
         cursor: pointer;
         color: rgb(200,200,200)
     }

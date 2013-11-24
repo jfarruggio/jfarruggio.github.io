@@ -202,7 +202,7 @@ input[type=checkbox] {
 }
 
 /* line 191, ../_sass/screen.scss */
-.read-more, .read-less {
+.read-more, .read-less, .read-more2, .read-less2 {
   display: none;
 }
 
@@ -285,14 +285,14 @@ footer li {
   }
 
   /* line 265, ../_sass/screen.scss */
-  .read-more {
+  .read-more, .read-more2 {
     display: block;
     cursor: pointer;
     color: #c8c8c8;
   }
 
   /* line 271, ../_sass/screen.scss */
-  .read-less {
+  .read-less, .read-less2 {
     cursor: pointer;
     color: #c8c8c8;
   }
