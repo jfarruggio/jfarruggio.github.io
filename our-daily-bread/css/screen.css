@@ -291,82 +291,54 @@ footer li {
     color: #c8c8c8;
   }
 
-  /* line 272, ../_sass/screen.scss */
-  input.read-more:checked .read-more {
-    display: none;
-  }
-  /* line 276, ../_sass/screen.scss */
-  input.read-more:checked .hide-show-mobile {
-    display: inline-block;
-  }
-  /* line 280, ../_sass/screen.scss */
-  input.read-more:checked .read-less {
-    display: inline-block;
+  /* line 271, ../_sass/screen.scss */
+  .read-less {
     cursor: pointer;
     color: #c8c8c8;
   }
-
-  /* line 288, ../_sass/screen.scss */
-  input.read-less:checked .read-less {
-    display: none;
-  }
-  /* line 292, ../_sass/screen.scss */
-  input.read-less:checked .read-more {
-    display: inline-block;
-  }
-  /* line 296, ../_sass/screen.scss */
-  input.read-less:checked .hide-show-mobile {
-    display: none;
-  }
-}
-@media screen and (max-width: 480px) {
-  /* line 303, ../_sass/screen.scss */
-  .show-mobile {
-    display: inline-block;
-  }
 }
 @media screen and (max-width: 400px) {
-  /* line 310, ../_sass/screen.scss */
+  /* line 279, ../_sass/screen.scss */
   .footer-logo {
     width: 75%;
   }
 }
 @media screen and (max-width: 440px) {
-  /* line 322, ../_sass/screen.scss */
+  /* line 291, ../_sass/screen.scss */
   header {
     height: 7em;
   }
 
-  /* line 326, ../_sass/screen.scss */
+  /* line 295, ../_sass/screen.scss */
   .header-logo {
     width: 75%;
   }
 }
 @media screen and (max-width: 363px) {
-  /* line 333, ../_sass/screen.scss */
+  /* line 302, ../_sass/screen.scss */
   .nav-bar li {
     font-size: 1.25em;
   }
 }
 @media screen and (max-width: 343px) {
-  /* line 340, ../_sass/screen.scss */
+  /* line 309, ../_sass/screen.scss */
   .nav-bar {
     font-size: .9em;
   }
 
-  /* line 344, ../_sass/screen.scss */
+  /* line 313, ../_sass/screen.scss */
   h2, h3 {
     font-size: 20px;
   }
 
-  /* line 349, ../_sass/screen.scss */
+  /* line 318, ../_sass/screen.scss */
   footer li {
     margin-top: 10px;
     font-size: 1em;
   }
 }
 @media screen and (max-width: 320px) {
-  /* line 358, ../_sass/screen.scss */
+  /* line 327, ../_sass/screen.scss */
   header {
     height: 5.5em;
   }

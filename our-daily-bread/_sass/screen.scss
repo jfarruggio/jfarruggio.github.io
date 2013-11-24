@@ -263,45 +263,14 @@ footer{
     }
 
     .read-more {
-    display: block;
+        display: block;
         cursor: pointer;
         color: rgb(200,200,200)
     }
-    
-    input.read-more:checked {
-        .read-more {
-        display:none;
-        }
 
-        .hide-show-mobile {
-        display: inline-block;
-        }
-
-        .read-less {
-        display: inline-block;
+    .read-less {
         cursor: pointer;
         color: rgb(200,200,200)
-        }
-    }
-    
-    input.read-less:checked  {
-        .read-less {
-            display: none;
-        }
-
-        .read-more {
-            display: inline-block;
-        }
-
-        .hide-show-mobile {
-            display: none;
-        }
-    }
-}
-
-@media screen and (max-width:480px) {
-    .show-mobile {
-        display: inline-block;
     }
 }
 
