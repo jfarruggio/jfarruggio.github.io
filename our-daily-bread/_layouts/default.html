@@ -6,12 +6,12 @@
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
 <!--     <link rel="stylesheet" type="text/css" href="css/bootstrap.full.min.css"> -->
-    <link rel="stylesheet" type="text/css" href="css/screen.css" media="all">
-    <link rel="stylesheet" type="text/css" href="css/print.css" media="print">
-    <link rel="stylesheet" type="text/css" href="css/flexslider.css">
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/screen.css" media="all">
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/print.css" media="print">
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/flexslider.css">
     <link href='http://fonts.googleapis.com/css?family=Cherry+Swash:400,700' rel='stylesheet' type='text/css'>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
-    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="{{ site.baseurl }}/js/jquery.js"></script>
     
     <script src="js/jquery.flexslider.js"></script>
 <script type="text/javascript"> $(window).load(function() {
@@ -32,16 +32,16 @@
 <body>
 <div id="wrap">
     <header>
-    <img class="header-logo" src="images/logo-overlay.png">
-    <img class="bread" src="images/bread.png">
+    <img class="header-logo" src="{{ site.baseurl }}/images/logo-overlay.png">
+    <img class="bread" src="{{ site.baseurl }}/images/bread.png">
     </header>
 
 <div class="container">
     <div class="nav-bar">
         <ul>
-          <li><a href="home.html">Home</a></li>
-          <li><a href="about.html">About Us</a></li>
-          <li><a href="contact.html">Contact Us</a></li>
+          <li><a href="{{ site.baseurl }}/index.html">Home</a></li>
+          <li><a href="{{ site.baseurl }}/about.html">About Us</a></li>
+          <li><a href="{{ site.baseurl }}/contact.html">Contact Us</a></li>
         </ul>
     </div>
 </div>
@@ -52,15 +52,15 @@
     <div class="container">
     <div class="row">
         <div class="col-xs-12 text-center">
-        <img class="footer-logo " src="images/logo-overlay.png" alt="">
+        <img class="footer-logo " src="{{ site.baseurl }}/images/logo-overlay.png" alt="">
         </div>
     </div>
     <div class="row">
         <div class="col-xs-12 text-center">
             <ul>
-                <li>Home</li>
-                <li>About Us</li>
-                <li>Contact Us</li>
+                <a href="{{ site.baseurl }}/index.html"><li>Home</li></a>
+                <a href="{{ site.baseurl }}/about.html"><li>About Us</li></a>
+                <a href="{{ site.baseurl }}/contact.html"><li>Contact Us</li></a>
             </ul>
         </div>
     </div>

@@ -7,22 +7,22 @@ title: Homepage
     <div class="flexslider">
         <ul class="slides">
           <li>
-            <img src="images/slide1.jpg" />
+            <img src="{{ site.baseurl }}/images/slide1.jpg" />
           </li>
           <li>
-            <img src="images/slide2.jpg" />
+            <img src="{{ site.baseurl }}/images/slide2.jpg" />
           </li>
           <li>
-            <img src="images/slide3.jpg" />
+            <img src="{{ site.baseurl }}/images/slide3.jpg" />
           </li>
           <li>
-            <img src="images/slide4.jpg" />
+            <img src="{{ site.baseurl }}/images/slide4.jpg" />
           </li>
           <li>
-            <img src="images/slide5.jpg" />
+            <img src="{{ site.baseurl }}/images/slide5.jpg" />
           </li>
           <li>
-            <img src="images/slide6.jpg" />
+            <img src="{{ site.baseurl }}/images/slide6.jpg" />
           </li>
         </ul>
     </div>
@@ -37,16 +37,16 @@ title: Homepage
          <br>
         <div class="row">
           <div class="col-xs-12 col-sm-3 col-md-4">
-            <img class="img-rounded"src="images/recipies/img1.jpg" alt="">
+            <img class="img-rounded" src="{{ site.baseurl }}/images/recipies/img1.jpg" alt="">
           </div>  
           <div class="col-xs-12 col-sm-9 col-md-8">
             <h3>
               Description
             </h3>
             <p>
-              This delicious <span class="pumpkin">Pumpkin Chocolate Chip Bread</span> is full of chocolate inside and on top.  It is definitely the way to go when you kick off your pumpkin baking.
-              <br><br>
-              <label class="read-more" for="readmore">Read More <span class="glyphicon glyphicon-chevron-down"></span></label>
+              This delicious Pumpkin Chocolate Chip Bread is full of chocolate inside and on top.  It is definitely the way to go when you kick off your pumpkin baking.
+              <br><br class="show-mobile">
+              <label class="read-more" for="read-more">Read More <span class="glyphicon glyphicon-chevron-down"></span></label>
               <input class="read-more" id="read-more" type="checkbox"></input>
 
               <label class="read-less" for="read-less">Read Less <span class="glyphicon glyphicon-chevron-up"></span></label>
@@ -98,12 +98,24 @@ title: Homepage
           </div>
         </div>
         <br>
-        <ul class="social-icons">
-          <a href="#"><li class="thumbs-up text-center">Like it
-          </li></a>
-          <a href="#"><li class="text-center">Share it
-          </li></a>
-        </ul>
+        <div class="row">
+          <div class="col-xs-6">
+            <ul class="social-buttons">
+              <a href="#"><li class="text-center">Like it
+              </li></a>
+              <a href="#"><li class="text-center">Share it
+              </li></a>
+            </ul>
+          </div>
+          <div class="col-md-2 col-md-offset-4">
+          <ul class="social-icons">
+            <li>
+              <span class="glyphicon glyphicon-thumbs-up"> </span> 
+              <span class="badge pull-right">22</span>
+            </li>
+          </ul>
+          </div>  
+        </div>
       </div>
 
       <br>
@@ -117,7 +129,7 @@ title: Homepage
          <br>
         <div class="row">
           <div class="col-xs-12 col-sm-3 col-md-4">
-            <img class="img-rounded"src="images/recipies/img2.jpg" alt="">
+            <img class="img-rounded"src="{{ site.baseurl }}/images/recipies/img2.jpg" alt="">
           </div>  
           <div class="col-xs-12 col-sm-9 col-md-8">
             <h3>
@@ -125,7 +137,7 @@ title: Homepage
             </h3>
             <p>
               First, let’s just get it out of the way that this homemade version puts the store-bought one to shame.  And that one from the bakery was excellent.  But this one.  Oh my.  It’s a good thing that this recipe yields two loaves, since we blow through it pretty quickly.  I’ve made this bread twice in the last two and a half weeks and have plans to make another batch before our family arrives for Thanksgiving.
-              <br><br>
+              <br><br class="show-mobile">
               <label class="read-more2" for="readmore2">Read More <span class="glyphicon glyphicon-chevron-down"></span></label>
               <input class="read-more2" id="read-more2" type="checkbox"></input>
 
@@ -174,12 +186,24 @@ This bread has the perfect base – sturdy yet still soft.  It is filled with ju
           </div>
         </div>
         <br>
-        <ul class="social-icons">
-          <a href="#"><li class="thumbs-up text-center">Like it
-          </li></a>
-          <a href="#"><li class="text-center">Share it
-          </li></a>
-        </ul>
+        <div class="row">
+          <div class="col-xs-6">
+            <ul class="social-buttons">
+              <a href="#"><li class="text-center">Like it
+              </li></a>
+              <a href="#"><li class="text-center">Share it
+              </li></a>
+            </ul>
+          </div>
+          <div class="col-md-2 col-md-offset-4">
+          <ul class="social-icons">
+            <li>
+              <span class="glyphicon glyphicon-thumbs-up"> </span> 
+              <span class="badge pull-right">67</span>
+            </li>
+          </ul>
+          </div>  
+        </div>
       </div>
 
       <br>
@@ -193,7 +217,7 @@ This bread has the perfect base – sturdy yet still soft.  It is filled with ju
          <br>
         <div class="row">
           <div class="col-xs-12 col-sm-3 col-md-4">
-            <img class="img-rounded"src="images/recipies/img3.jpg" alt="">
+            <img class="img-rounded"src="{{ site.baseurl }}/images/recipies/img3.jpg" alt="">
           </div>  
           <div class="col-xs-12 col-sm-9 col-md-8">
             <h3>
@@ -241,11 +265,23 @@ This bread has the perfect base – sturdy yet still soft.  It is filled with ju
           </div>
         </div>
         <br>
-        <ul class="social-icons">
-          <a href="#"><li class="thumbs-up text-center">Like it
-          </li></a>
-          <a href="#"><li class="text-center">Share it
-          </li></a>
-        </ul>
+        <div class="row">
+          <div class="col-xs-6">
+            <ul class="social-buttons">
+              <a href="#"><li class="text-center">Like it
+              </li></a>
+              <a href="#"><li class="text-center">Share it
+              </li></a>
+            </ul>
+          </div>
+          <div class="col-md-2 col-md-offset-4">
+          <ul class="social-icons">
+            <li>
+              <span class="glyphicon glyphicon-thumbs-up"> </span> 
+              <span class="badge pull-right">58</span>
+            </li>
+          </ul>
+          </div>  
+        </div>
       </div>
 </div>

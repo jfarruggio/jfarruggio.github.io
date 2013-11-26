@@ -1,0 +1,27 @@
+/* line 4, ../_sass/global2.scss */
+.contact-title {
+  margin-bottom: 1em;
+}
+
+/* line 9, ../_sass/global2.scss */
+.contact-box {
+  border: 1px solid #faba54;
+  padding: 20px;
+}
+
+/* line 15, ../_sass/global2.scss */
+.contact-link {
+  color: #cc9966;
+}
+
+/* line 19, ../_sass/global2.scss */
+.subscribe-button {
+  background-color: #faba54;
+  border-radius: 15%;
+  border-bottom: 2px solid #cc9966;
+  margin-left: 5px;
+}
+/* line 25, ../_sass/global2.scss */
+.subscribe-button:hover {
+  background-color: #cc9966;
+}
