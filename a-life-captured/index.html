@@ -1,0 +1,65 @@
+<html>
+<head>
+    <title>Site Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/slate-bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/screen.css" media="all">
+    <link rel="stylesheet" type="text/css" href="css/print.css" media="print">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+</head>
+<body>
+
+	<div class="container">
+		<div class="row">
+			<header>
+                <h1><a href="index.html">A life captured</a></h1>
+                <ul class="navigation pull-right">
+                    <li><a href="index.html">Portfolio</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </header>
+            <div class="row">
+                <div class="col-xs-6 col-md-3 album">
+                    <a href="Carlin.html">
+                        <img class="img-responsive" src="images/kristin/Carlin(12).jpg" alt="">
+                        <h2 class="img-title">Carlin</h2>
+                    </a>
+                </div>
+                
+                <div class="col-xs-6 col-md-3 album">
+                    <a href="addison.html">
+                        <img class="img-responsive" src="images/kristin/Addison(7).jpg" alt="">
+                        <h2 class="img-title">Addison</h2>
+                    </a>
+                </div>
+                
+                <div class="col-xs-6 col-md-3 album">
+                    <a href="Audriana.html">
+                        <img class="img-responsive" src="images/Joey/Audriana(12).jpg" alt="">
+                        <h2 class="img-title">Audriana</h2>
+                    </a>
+                </div>
+
+            </div>
+            <!-- end row -->
+		
+		</div>	
+		<!-- end row -->	
+	</div>
+	<!-- end container -->
+
+<script>
+$(function() {
+  $('img, h2').mouseover(function() {
+    $(this).siblings('h2').addClass('show');
+  });
+  $('img').mouseout(function() {
+    $(this).siblings('h2').removeClass('show');
+  });
+});
+</script>    
+
+</body>
+</html>
