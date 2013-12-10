@@ -1,3 +1,7 @@
+li {
+  list-style: none;
+}
+
 header h1, header ul, header li, header a {
   color: grey;
   list-style: none;
@@ -23,7 +27,7 @@ img {
 }
 
 .sub-album h2 {
-  font-size: 20px;
+  font-size: 17px;
 }
 
 h2 {

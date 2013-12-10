@@ -1,5 +1,9 @@
 // Reset no longer needed if you're using Bootstrap. But add it back if you don't want to use Bootstrap.
 // @import "reset";
+li {
+    list-style: none;
+}
+
 header  {
     h1, ul, li, a {
     color:grey;
@@ -32,7 +36,7 @@ img {
 
 .sub-album {
     h2 {
-        font-size: 20px;
+        font-size: 17px;
     }
 }
 
